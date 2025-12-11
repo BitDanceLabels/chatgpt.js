@@ -1,3 +1,16 @@
-*cache
-node_modules/
-*.css.map
+# Python virtual env & cache
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+
+# Editor/OS junk
+.DS_Store
+.idea/
+.vscode/
+
+# Local environment/config
+.env
+
+# Playwright/ChatGPT session data
+.chatgpt-session/
